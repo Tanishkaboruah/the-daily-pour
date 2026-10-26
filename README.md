@@ -38,6 +38,9 @@ the-daily-pour/
     └── coffee-pour.mp4
 ```
 
+** [Live Demo](https://the-daily-pour.vercel.app/)**
+
+
 ## Design Updates
 
 * Blended the hero video into the warm ivory background using radial masking and layered gradients.
