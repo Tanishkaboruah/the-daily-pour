@@ -222,3 +222,16 @@
  .menu-item-desc { font-size: 8px; }
  .menu-item-note { font-size: 6px; }
 }
+/* Mobile ticker refinement */
+@media (max-width: 600px) {
+  .ticker {
+    padding: 13px 0;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+  }
+
+  .ticker i {
+    font-size: 8px;
+    margin: 0 8px;
+  }
+}
