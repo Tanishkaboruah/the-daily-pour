@@ -38,7 +38,7 @@ the-daily-pour/
     └── coffee-pour.mp4
 ```
 
-** [Live Demo](https://the-daily-pour.vercel.app/)**
+Demo Run: [Live Demo](https://the-daily-pour.vercel.app/)
 
 
 ## Design Updates
