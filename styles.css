@@ -235,3 +235,59 @@
     margin: 0 8px;
   }
 }
+
+/* Continuous, seamless scrolling ticker */
+
+.ticker {
+width: 100%;
+overflow: hidden;
+}
+
+.ticker-track {
+display: flex;
+width: max-content;
+animation: ticker-scroll 22s linear infinite;
+will-change: transform;
+}
+
+.ticker-content {
+display: flex;
+align-items: center;
+flex-shrink: 0;
+white-space: nowrap;
+}
+
+.ticker-content i {
+margin: 0 24px;
+font-style: normal;
+}
+
+@keyframes ticker-scroll {
+from {
+transform: translateX(0);
+}
+
+to {
+transform: translateX(-50%);
+}
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 768px) {
+.ticker-track {
+animation-duration: 18s;
+}
+
+.ticker-content i {
+margin: 0 14px;
+}
+}
+
+/* Respect reduced-motion preferences */
+
+@media (prefers-reduced-motion: reduce) {
+.ticker-track {
+animation: none;
+}
+}
