@@ -1,4 +1,4 @@
-# The Daily Pour ☕
+# The Daily Pour : CoffeeCafe
 
 A responsive café homepage demo featuring cinematic coffee-pouring footage, an editorial coffee menu, and a warm, minimalist design.
 
